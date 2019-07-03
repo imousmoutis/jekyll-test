@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+
+  {% for module in site.modules %}
+    <a href="{{ module.url }}">
+      {{ module.title }}
+    </a>
+    <p>{{ module.content | markdownify }}</p>
+  {% endfor %}
+
+  
+
+</div>

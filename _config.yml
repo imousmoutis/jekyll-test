@@ -1,0 +1,10 @@
+title: QLACK
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections: 
+  modules:
+    output: true
