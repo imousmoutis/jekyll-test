@@ -1,5 +1,8 @@
 title: QLACK
 
+url: https://imousmoutis.github.io
+baseurl: /jekyll-test
+
 markdown: kramdown
 theme: minima
 plugins:

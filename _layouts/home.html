@@ -6,7 +6,7 @@ layout: default
 
 
   {% for module in site.modules %}
-    <a href="{{ module.url }}">
+    <a href="{{ site.baseurl }}{{ module.url }}">
       {{ module.title }}
     </a>
     <p>{{ module.content | markdownify }}</p>
