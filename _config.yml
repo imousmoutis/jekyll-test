@@ -11,3 +11,4 @@ plugins:
 collections: 
   modules:
     output: true
+    permalink: /modules/:title
